@@ -1,4 +1,4 @@
-# AdaPT-GWAS-manuscript-code
+# Overview of manuscript repository
 
 This repository contains the code for reproducing the results and figures in 
 [_A selective inference approach for FDR control using multi-omics covariates yields insights into disease risk_](https://www.biorxiv.org/content/early/2019/10/16/806471.full.pdf).
