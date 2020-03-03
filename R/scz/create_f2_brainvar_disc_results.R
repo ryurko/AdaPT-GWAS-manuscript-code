@@ -26,7 +26,7 @@ rm(bip_scz_data_14_18)
 bip_scz_gtex_esnps <- fread("data/bip_schz_data/bip_scz_data_14_18_gtex_eqtls_cortical_wgcna.csv")
 
 # Next the BrainVar eSNPs:
-bip_scz_brainvar_esnps <- fread("data/bip_schz_data/bip_scz_data_14_18_brainvar_eqtls_hcp_wgcna.csv")
+bip_scz_brainvar_data <- read_csv("data/bip_schz_data/bip_scz_data_14_18_brainvar_eqtls_hcp_wgcna.csv")
 
 # Next proceed to generate the comparison of SCZ enrichment qq-plots using 
 # random sampling of the higher p-values after quantiles have been stored for
@@ -42,7 +42,7 @@ scz_enrich_plot <- bip_scz_data_14_18_filtered %>%
       mutate(type = "gtex") 
   )},
   {(
-    bip_scz_brainvar_esnps %>%
+    bip_scz_brainvar_data %>%
       as.data.frame() %>%
       dplyr::select(scz_14_P) %>%
       mutate(type = "brainvar") 
@@ -83,7 +83,6 @@ scz_enrich_plot <- bip_scz_data_14_18_filtered %>%
 # Remove these datasets:
 rm(bip_scz_data_14_18_filtered)
 rm(bip_scz_gtex_esnps)
-rm(bip_scz_brainvar_esnps)
 
 # ------------------------------------------------------------------------------
 
