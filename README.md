@@ -23,6 +23,10 @@ from the [Psychiatric Genomics Consortium](https://www.med.unc.edu/pgc/download-
 - BrainVar [eQTLs](https://www.biorxiv.org/content/biorxiv/early/2019/03/22/585430/DC5/embed/media-5.xlsx?download=true) and [WGCNA](https://www.biorxiv.org/content/biorxiv/early/2019/03/22/585430/DC4/embed/media-4.xlsx?download=true) results are available to download from the [available
 pre-print for Werling et al. (2019) on bioRxiv](https://www.biorxiv.org/content/10.1101/585430v1).
 
+## Contact
+
+Ron Yurko: [ryurko@andrew.cmu.edu](mailto:ryurko@andrew.cmu.edu)
+
 ## References
 
 - AE Locke, et al., Genetic studies of body mass index yield new insights for obesity biology. _Nature_ __518__, 197 EP – (2015).
